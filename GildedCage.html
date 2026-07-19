@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私政策 / Privacy Policy</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Noto Sans SC", "Helvetica Neue", sans-serif;
+    background: #0D0D0D;
+    color: #D4C9A8;
+    line-height: 1.8;
+    padding: 0;
+  }
+  .header {
+    background: #1A1510;
+    border-bottom: 1px solid #2A2015;
+    padding: 24px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header h1 {
+    font-size: 22px;
+    color: #C8A45C;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .header p {
+    font-size: 13px;
+    color: #8A7A5A;
+    margin-top: 4px;
+  }
+  .lang-switch {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .lang-btn {
+    background: transparent;
+    border: 1px solid #C8A45C;
+    color: #C8A45C;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .lang-btn:hover {
+    background: #C8A45C;
+    color: #0D0D0D;
+  }
+  .lang-btn.active {
+    background: #C8A45C;
+    color: #0D0D0D;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  .section { display: none; }
+  .section.active { display: block; }
+  h2 {
+    font-size: 18px;
+    color: #C8A45C;
+    margin: 28px 0 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  h2:first-child { margin-top: 0; }
+  p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #B8AD8A;
+  }
+  ul {
+    margin: 8px 0 16px 20px;
+    color: #B8AD8A;
+  }
+  ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .highlight {
+    background: #1A1510;
+    padding: 12px 16px;
+    border-left: 3px solid #C8A45C;
+    border-radius: 4px;
+    margin: 16px 0;
+    font-size: 13px;
+    color: #A89870;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    color: #5A4A2A;
+    border-top: 1px solid #1A1510;
+    margin-top: 40px;
+  }
+  a { color: #C8A45C; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .last-updated {
+    font-size: 12px;
+    color: #6A5A3A;
+    margin-bottom: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 id="headerTitle">隐私政策</h1>
+  <p id="headerSub">最后更新：2026 年 7 月 19 日</p>
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="switchLang('zh')" id="btnZh">中文</button>
+    <button class="lang-btn" onclick="switchLang('en')" id="btnEn">English</button>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- ============ 中文版 ============ -->
+<div class="section active" id="secZh">
+
+<h2>引言</h2>
+<p>本隐私政策适用于「The Gilded Cage」（以下简称"本应用"）。本应用由超巍·叶开发并提供。我们非常重视您的隐私。本政策旨在说明我们如何收集、使用和保护您的信息。</p>
+
+<div class="highlight">
+<strong>核心原则：本应用完全离线运行，不会收集任何个人信息。</strong>
+</div>
+
+<h2>1. 信息收集</h2>
+<p>本应用<strong>不会</strong>收集任何个人信息，包括但不限于：</p>
+<ul>
+  <li>姓名、邮箱地址、电话号码等身份信息</li>
+  <li>设备标识符（如 IDFA、IMEI、MAC 地址等）</li>
+  <li>地理位置信息</li>
+  <li>网络使用数据</li>
+  <li>照片、通讯录、日历等设备数据</li>
+</ul>
+<p>本应用<strong>不需要</strong>任何网络权限。全程离线运行，不会向任何服务器发送数据。</p>
+
+<h2>2. 数据存储</h2>
+<p>本应用的所有游戏数据（包括游戏进度、设置偏好等）仅存储在您的设备本地。我们使用本地存储技术（如 SQLite / SharedPreferences）来保存您的游戏状态。这些数据：</p>
+<ul>
+  <li>仅存在于您的设备上</li>
+  <li>不会上传到任何云端服务器</li>
+  <li>不会与任何第三方共享</li>
+  <li>在您卸载应用时会被完全清除</li>
+</ul>
+
+<h2>3. 第三方服务</h2>
+<p>本应用不使用任何第三方分析服务、广告服务或社交媒体 SDK。本应用不包含任何形式的广告。</p>
+
+<h2>4. 儿童隐私</h2>
+<p>本应用不会故意收集 13 岁以下儿童的个人信息。由于本应用完全离线运行且不收集任何数据，儿童用户可以安全使用。</p>
+
+<h2>5. 数据安全</h2>
+<p>由于所有数据仅存储在本地设备上，不存在数据传输过程中的泄露风险。我们建议您妥善保管自己的设备，以防他人未经授权访问您的游戏数据。</p>
+
+<h2>6. 政策变更</h2>
+<p>如果我们对本隐私政策进行更改，我们会在此页面更新。重大变更会通过应用更新通知您。建议您定期查看本页面。</p>
+
+<h2>7. 联系我们</h2>
+<p>如果您对本隐私政策有任何疑问或建议，请通过以下方式联系我们：</p>
+<p>📧 <a href="mailto:yeechaowei@163.com">yeechaowei@163.com</a></p>
+
+</div>
+
+<!-- ============ English Version ============ -->
+<div class="section" id="secEn">
+
+<h2>Introduction</h2>
+<p>This Privacy Policy applies to <strong>"The Gilded Cage"</strong> (金丝笼, hereinafter referred to as "the App"). The App is developed and provided by Chaowei Ye. We take your privacy seriously. This policy explains how we collect, use, and protect your information.</p>
+
+<div class="highlight">
+<strong>Core Principle: This App runs entirely offline and does not collect any personal information.</strong>
+</div>
+
+<h2>1. Information Collection</h2>
+<p>The App does <strong>NOT</strong> collect any personal information, including but not limited to:</p>
+<ul>
+  <li>Name, email address, phone number, or other identity information</li>
+  <li>Device identifiers (such as IDFA, IMEI, MAC address, etc.)</li>
+  <li>Geolocation data</li>
+  <li>Network usage data</li>
+  <li>Photos, contacts, calendar, or other device data</li>
+</ul>
+<p>The App requires <strong>no network permissions</strong>. It runs entirely offline and does not transmit any data to any server.</p>
+
+<h2>2. Data Storage</h2>
+<p>All game data (including game progress, settings, preferences, etc.) is stored locally on your device only. We use local storage technologies (such as SQLite / SharedPreferences) to save your game state. This data:</p>
+<ul>
+  <li>Exists only on your device</li>
+  <li>Is never uploaded to any cloud server</li>
+  <li>Is never shared with any third party</li>
+  <li>Is completely removed when you uninstall the App</li>
+</ul>
+
+<h2>3. Third-Party Services</h2>
+<p>The App does not use any third-party analytics services, advertising services, or social media SDKs. The App contains no advertisements of any kind.</p>
+
+<h2>4. Children's Privacy</h2>
+<p>The App does not knowingly collect personal information from children under 13. Since the App runs entirely offline and collects no data, it is safe for children to use.</p>
+
+<h2>5. Data Security</h2>
+<p>Since all data is stored only on your local device, there is no risk of data leakage during transmission. We recommend that you keep your device secure to prevent unauthorized access to your game data.</p>
+
+<h2>6. Policy Changes</h2>
+<p>If we make changes to this Privacy Policy, we will update this page. Material changes will be communicated through app updates. We encourage you to review this page periodically.</p>
+
+<h2>7. Contact Us</h2>
+<p>If you have any questions or suggestions about this Privacy Policy, please contact us at:</p>
+<p>📧 <a href="mailto:yeechaowei@163.com">yeechaowei@163.com</a></p>
+
+</div>
+
+</div>
+
+<div class="footer">
+  &copy; 2026 Chaowei Ye. All rights reserved.
+</div>
+
+<script>
+function switchLang(lang) {
+  document.getElementById('secZh').classList.toggle('active', lang === 'zh');
+  document.getElementById('secEn').classList.toggle('active', lang === 'en');
+  document.getElementById('btnZh').classList.toggle('active', lang === 'zh');
+  document.getElementById('btnEn').classList.toggle('active', lang === 'en');
+  document.getElementById('headerTitle').textContent = lang === 'zh' ? '隐私政策' : 'Privacy Policy';
+  document.getElementById('headerSub').textContent = lang === 'zh' ? '最后更新：2026 年 7 月 19 日' : 'Last Updated: July 19, 2026';
+}
+</script>
+
+</body>
+</html>>
